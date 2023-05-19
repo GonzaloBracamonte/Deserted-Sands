@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Aleatoriedad de enemigos y puntos de salud.unity
+- path: Assets/Scenes/Cinturon Guarda Objeto.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
