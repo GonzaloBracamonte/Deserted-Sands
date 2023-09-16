@@ -61,8 +61,14 @@
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\PlayerHealth.cs" />
     <Compile Include="Assets\Scripts\CaravanSpawner.cs" />
+    <Compile Include="Assets\Scripts\RockManager.cs" />
     <Compile Include="Assets\Scripts\PlayerSpawner.cs" />
     <Compile Include="Assets\Scripts\BeltManager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Free Low Poly Desert Pack\Materials\Shaders\Vertex_Color_Unlit.shader" />
+    <None Include="Assets\Free Low Poly Desert Pack\Materials\Shaders\Vertex_Color_Basic.shader" />
+    <None Include="Assets\polyperfect\Low Poly Animated Animals\- UI\TextShader.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -698,6 +704,10 @@
       <Project>{E2266901-D1F6-7E31-75A5-7D414CDDA789}</Project>
       <Name>Unity.VisualScripting.Flow.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Polyperfect.Common.csproj">
+      <Project>{470F114C-4F8E-B1BC-33B7-2062B83D15A9}</Project>
+      <Name>Polyperfect.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.VSCode.Editor.csproj">
       <Project>{8DFBD7AF-BED0-188E-C32E-24248689155C}</Project>
       <Name>Unity.VSCode.Editor</Name>
@@ -753,6 +763,10 @@
     <ProjectReference Include="Unity.Rider.Editor.csproj">
       <Project>{6DD8B283-D9F1-1297-ECF4-C4122B698DAB}</Project>
       <Name>Unity.Rider.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Polyperfect.Animals.csproj">
+      <Project>{DFB750EE-D447-E537-7341-A15168CF160D}</Project>
+      <Name>Polyperfect.Animals</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.csproj">
       <Project>{AB9419B1-DAE7-DA9D-77C9-DB18ABCAE68A}</Project>

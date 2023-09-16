@@ -18,8 +18,8 @@ public class SpawnManager : MonoBehaviour
     {
         while (enemyCount >= 0 && enemyCount < 10)
         {
-            int xRandom = Random.Range(-15, 15);
-            int zRandom = Random.Range(-15, 15);
+            int xRandom = Random.Range(100, 600);
+            int zRandom = Random.Range(100, 600);
             Vector3 randomPos = new Vector3(xRandom, 5, zRandom);
             GameObject newEnemy =  Instantiate(Enemy, randomPos, Quaternion.identity);
             newEnemy.transform.parent = spawnContainer.transform;
@@ -33,8 +33,8 @@ public class SpawnManager : MonoBehaviour
     {
         while (healthCount >= 0 && healthCount <= 16)
         {
-            int xRandom = Random.Range(-20, 20);
-            int zRandom = Random.Range(-20, 20);
+            int xRandom = Random.Range(200, 600);
+            int zRandom = Random.Range(300, 600);
             Vector3 randomPos = new Vector3(xRandom, 5, zRandom);
             GameObject newHealth=  Instantiate(Health, randomPos, Quaternion.identity);
             newHealth.transform.parent = spawnContainer.transform;

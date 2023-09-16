@@ -7,7 +7,7 @@ public class PlayerHealth : MonoBehaviour
     public float health;
     public double hydration;
     public double energy;
-   
+
     void Awake()
     {
         health = 100;
@@ -26,13 +26,15 @@ public class PlayerHealth : MonoBehaviour
         {
             Debug.Log("Se ha perdido vida");
             health = health - 10;
+            Destroy(otherObj.gameObject);
         }
-        
-        if(otherObj.gameObject.tag == "Health")
+
+        if (otherObj.gameObject.tag == "Health")
         {
             Debug.Log("Se gano puntos vitales y de energia");
             health += 10;
             energy += 15;
+            Destroy(otherObj.gameObject);
         }
     }
     private void Dehydration()

@@ -9,12 +9,10 @@ public class PlayerSpawner : MonoBehaviour
     {
         StartCoroutine(SpawnPlayer());
     }
-
-    // Update is called once per frame
     IEnumerator SpawnPlayer()
     {
-        int xRandom = Random.Range(-10, 10);
-        int zRandom = Random.Range(-10, 10);
+        int xRandom = Random.Range(630, 650);
+        int zRandom = Random.Range(310, 320);
         Vector3 randomPos = new Vector3(xRandom, 5, zRandom);
         Instantiate(Player, randomPos, Quaternion.identity);
         Destroy(this.Player);

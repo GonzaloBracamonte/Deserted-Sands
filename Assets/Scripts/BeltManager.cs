@@ -9,15 +9,10 @@ public class BeltManager : MonoBehaviour
 
     void Start()
     {
-        //Find();
+        Find();
         tool = GetComponent<Rigidbody>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     private void Find()
     {
         Transform result;

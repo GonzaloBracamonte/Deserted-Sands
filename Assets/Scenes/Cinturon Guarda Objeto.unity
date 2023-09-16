@@ -625,7 +625,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c7acd64935f9b4ea0c957d5b6b7c79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  belt: {fileID: 0}
+  belt: {fileID: 1704125371}
   tool: {fileID: 1096923095}
 --- !u!1001 &1375657020
 PrefabInstance:
